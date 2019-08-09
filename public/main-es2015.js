@@ -295,7 +295,7 @@ __webpack_require__.r(__webpack_exports__);
 let PlayerDataService = class PlayerDataService {
     constructor(http) {
         this.http = http;
-        this.url = "http://localhost:5000/api/v1/profile";
+        this.url = "api/v1/profile";
     }
     getPlayerData(platform, playerId) {
         return this.http.get(`${this.url}/${platform}/${playerId}`);

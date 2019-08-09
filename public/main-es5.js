@@ -303,7 +303,7 @@ __webpack_require__.r(__webpack_exports__);
 var PlayerDataService = /** @class */ (function () {
     function PlayerDataService(http) {
         this.http = http;
-        this.url = "http://localhost:5000/api/v1/profile";
+        this.url = "api/v1/profile";
     }
     PlayerDataService.prototype.getPlayerData = function (platform, playerId) {
         return this.http.get(this.url + "/" + platform + "/" + playerId);
