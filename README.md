@@ -4,6 +4,8 @@
 
 > Work Inspired from https://github.com/bradtraversy/apex-legends-tracker
 
+> If you have Cross Origin Errors when accessing API from localhost use this extension for [Google Chrome](https://chrome.google.com/webstore/detail/moesif-orign-cors-changer/digfbfaphojjndkpccljibejjbppifbc/related)
+
 ## Quick Start
 
 Register and get your API key from
